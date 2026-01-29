@@ -1,0 +1,6 @@
+/* Apply Inter font to whole app */
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}

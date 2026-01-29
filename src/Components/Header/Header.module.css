@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Header_Container {
+   background-color: #1a1a1a;
+    color: white;
+    gap: 10px;
+    align-items: center;
+    display: flex;
+    height: 70px;
+    /* justify-content: space-between; */
+}
+.logo_container {
+    display: flex;
+    align-items: center;
+    max-width: 250px;
+    justify-content: center;
+}
+
+.logo_container img {
+    width: 80%;
+    padding-top: 5px;
+    margin-left: 20px;
+    vertical-align: middle;   
+}
+
+.deliverdTo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    font-weight: bold;
+    padding: 5px;
+}
+.deliverdTo p {
+    font-size: 12px;
+}
+
+.search {
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex: 1;
+    width: 100%;
+    border-radius: 10px;
+}
+.search input {
+  font-family: Arial, sans-serif;
+}
+
+.search select,
+.search input {  
+    padding: 10px;
+    outline: 1px solid #fff;
+    font-weight: bold;
+}
+.search input::placeholder {
+  font-family: 'Inter', sans-serif; /* make sure it matches the body */
+  font-weight: 300;                 /* bold */
+  color: #666;
+  font-size: 18px;
+  
+}
+
+
+.search select {
+   border: none;
+   background: #eae4df;
+   width: 8%;
+   border-radius: none;
+}
+
+.search input {
+    width: 100%;
+    border: 1px solid #fff;
+    margin-right: -2px;
+    /* border-left: none; */
+}
+.search svg {   
+    padding: 7px;
+    background: #febd69;
+    color: #1a1a1a;
+}
+
+.search:focus-within {
+   border: 2px solid rgb(rgb(235, 161, 173), green, blue);
+}
+
+.order_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    max-width: 450px;
+}
+.order_container a {
+    text-decoration: none;
+    color: white;
+}
+.order_container p {
+    font-size: 10px;  
+}
+
+
+.language {
+    display: flex;
+    padding: 10px;
+    width: 100px;
+}
+
+.language img {
+    width: 40%;
+  
+}
+ .language select {
+    background: #1a1a1a;
+    border: none;
+    color: white;
+}
+
+.cart {
+  position: relative;
+  font-size: 40px;
+  display: flex;
+}
+
+
+.cart span {
+    position: absolute;
+    font-weight: bold;
+    top: 8px;
+    font-size: 16px;
+    background-color: #1a1a1a;
+    left: 18px;  
+    color: orange;
+}
+.cart p {
+    font-size: 16px;
+    margin-top: -10px;
+    padding-top: 30px;
+}
+.order_container a:hover,
+.deliverdTo:hover,
+.logo_container a:hover,
+.lower_container a:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+
