@@ -17,10 +17,10 @@
     align-items: center;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 900px) {
     .lower_container ul li:not(:first-child){
         display: flex;
-        flex-direction: column !important;
+        flex-direction: column;
         height: auto;
     }
     .lower_container ul li:not(:first-child) {

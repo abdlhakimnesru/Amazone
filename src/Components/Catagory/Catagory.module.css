@@ -1,0 +1,43 @@
+.catagory {
+   height: 350px;
+    width: 350px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 100%;
+
+}
+.catagory img {
+    max-height: 230px;
+    width: 100%;
+    object-fit: contain;
+    padding: 0px 10px;    
+}
+
+ h2{
+color: black;
+}
+
+.catagory h2,
+.catagory p {
+    padding: 5px;
+    margin-left: 15px;
+}
+.catagory p {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(9, 132, 209);
+   position: absolute;
+   bottom: 10px;
+   padding-left: 20px;
+
+}
+.catagory_container{
+    position: relative;
+    margin-top: -10%;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    gap: 20px;
+}

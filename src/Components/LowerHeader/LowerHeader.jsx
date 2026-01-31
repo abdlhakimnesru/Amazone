@@ -1,10 +1,10 @@
 import React from 'react'
 import { IoMenuSharp } from "react-icons/io5";
-import "./LowerHeader.css"
+import classes from "./LowerHeader.module.css"
 
 function LowerHeader() {
   return (
-    <div className={["lower_container"]}>
+    <div className={classes["lower_container"]}>
         <ul>
             <li>
                 <IoMenuSharp />
